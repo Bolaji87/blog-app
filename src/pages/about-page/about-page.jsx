@@ -2,7 +2,7 @@ import React from "react";
 import "./about-page.css";
 
 function AboutPage() {
-  return <div> About Page</div>;
+  return <div> </div>;
 }
 
 export default AboutPage;
