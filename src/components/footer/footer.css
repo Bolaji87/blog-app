@@ -1,0 +1,78 @@
+.footer {
+  height: 350px;
+}
+.wrapper {
+  height: 230px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  height: 60px;
+  width: 380px;
+  font-size: 18px;
+}
+.list ul {
+  display: flex;
+  padding: 10px;
+}
+.list li {
+  display: flex;
+  gap: 50px;
+}
+.list li a {
+  text-decoration: none;
+  color: #150e06;
+  font-size: 18px;
+}
+.icons {
+  width: 190px;
+  height: 20px;
+
+  padding-top: -20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.icon ul {
+  display: flex;
+}
+.icons li {
+  display: flex;
+  /* gap: 40px; */
+  justify-content: space-between;
+}
+.icons li a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #7c4ee4;
+  padding: 9px;
+  color: #fff;
+  margin-left: -10px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.copy {
+  height: 65px;
+  padding: 0 80px;
+}
+.copy p {
+  padding: 30px 0;
+  text-align: center;
+  color: #150e06;
+}
+.custom-hr {
+  color: #7c4ee4;
+  background-color: #7c4ee4;
+  height: 0.5px;
+}

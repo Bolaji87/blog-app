@@ -60,7 +60,7 @@ function PopuLarpost() {
               <img src={item.image} alt={item.name} />
               <h6>{item.name}</h6>
               <h1>{item.title}</h1>
-              <p>{item.text}</p>
+              <p id="popular-post-text">{item.text}</p>
               <button>
                 <a href="#">Read More...</a>
               </button>

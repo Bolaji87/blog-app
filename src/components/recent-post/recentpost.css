@@ -65,6 +65,7 @@
   display: flex;
   padding-right: 30px;
   flex-wrap: wrap;
+  color: #666666;
 }
 .read-more-btn {
   width: 100px;
@@ -131,5 +132,6 @@
 .post-feeds-list p {
   font-size: 18px;
   width: 380px;
+  color: #666666;
   line-height: 1.2;
 }
