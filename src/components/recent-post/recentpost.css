@@ -1,6 +1,6 @@
 .recent-post-container {
   height: 500px;
-  padding: 10px 60px;
+  padding: 10px 50px 10px 60px;
   margin-top: 20px;
 }
 
@@ -19,7 +19,7 @@
 .recent-post-header button {
   border: none;
   background-color: #7c4ee4;
-  padding: 10px 35px;
+  padding: 10px 0;
   height: 45px;
   width: 130px;
   border-radius: 8px;
@@ -84,10 +84,10 @@
 /* recent post section two */
 
 .post-feeds {
-  /* background-color: greenyellow; */
   height: 530px;
   margin-top: 60px;
-  padding: 20px 0;
+  padding: 20px 60px;
+  margin-bottom: 150px;
 }
 .post-feeds ul {
   display: flex;
@@ -98,7 +98,8 @@
 .post-feeds-list {
   display: flex;
   flex-direction: column;
-  width: 390px;
+  /* width: 400px; */
+  width: fit-content;
   height: 600px;
 
   justify-content: space-between;

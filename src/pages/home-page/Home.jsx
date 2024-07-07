@@ -15,6 +15,7 @@ function Home() {
       <Header />
       <Hero />
       <RecentPost />
+
       <PopuLarpost />
       <NewsLetter />
       <Footer />

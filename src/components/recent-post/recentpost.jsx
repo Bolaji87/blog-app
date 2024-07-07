@@ -37,34 +37,36 @@ const recentPosts2 = [
 ];
 function RecentPost() {
   return (
-    <div className="recent-post-container">
-      <div className="recent-post-header">
-        <h1>Our Recent Post</h1>
-        <button>View All</button>
-      </div>
-      <div className="recent-post-section">
-        {recentPost1.map((post) => (
-          <>
-            <div key={post.id}>
-              <img
-                className="recent-post-image"
-                src={post.image}
-                alt={post.name}
-              />
-            </div>
-            <div className="recent-post-news">
-              <h6>{post.name}</h6>
-              <h1>{post.title}</h1>
-              <p>{post.text}</p>
-              <button className="read-more-btn">
-                <a href="#">Read More</a>
-              </button>
-            </div>
-          </>
-        ))}
+    <>
+      <div className="recent-post-container">
+        <div className="recent-post-header">
+          <h1>Our Recent Post</h1>
+          <button>View All</button>
+        </div>
+        <div className="recent-post-section">
+          {recentPost1.map((post) => (
+            <>
+              <div key={post.id}>
+                <img
+                  className="recent-post-image"
+                  src={post.image}
+                  alt={post.name}
+                />
+              </div>
+              <div className="recent-post-news">
+                <h6>{post.name}</h6>
+                <h1>{post.title}</h1>
+                <p>{post.text}</p>
+                <button className="read-more-btn">
+                  <a href="#">Read More</a>
+                </button>
+              </div>
+            </>
+          ))}
+        </div>
       </div>
       <RecentPostFeeds />
-    </div>
+    </>
   );
 }
 
