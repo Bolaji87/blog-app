@@ -45,8 +45,8 @@ function RecentPost() {
         </div>
         <div className="recent-post-section">
           {recentPost1.map((post) => (
-            <>
-              <div key={post.id}>
+            <React.Fragment key={post.id}>
+              <div>
                 <img
                   className="recent-post-image"
                   src={post.image}
@@ -61,7 +61,7 @@ function RecentPost() {
                   <a href="#">Read More</a>
                 </button>
               </div>
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>

@@ -12,12 +12,10 @@ import Footer from "../../components/footer/footer.jsx";
 function Home() {
   return (
     <div>
-      <Header />
       <Hero />
       <RecentPost />
       <PopuLarpost />
       <NewsLetter />
-      <Footer />
     </div>
   );
 }
